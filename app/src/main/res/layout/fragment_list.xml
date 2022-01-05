@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.list.ListFragment">
+
+
+    <EditText
+        android:id="@+id/et_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:hint="Input data"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btn_to_send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:hint="Save"
+        android:textColorHint="@color/white"
+        android:background="@color/black"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:id="@+id/text_get"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
